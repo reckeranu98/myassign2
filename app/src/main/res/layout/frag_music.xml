@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@color/movie_bg"
+            tools:context=".frag.MusicFrag">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@color/lightblue"
+    >
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/fragMusicHeadingTV"
+                android:text="@string/music_frag"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/navyblue"
+
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="20dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.05"
+                app:layout_constraintHorizontal_bias="0.5"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="25dp"
+                  android:layout_marginHorizontal="20dp"
+
+                  android:id="@+id/songNameTV"
+                  android:text="@string/music"
+                  android:textSize="22sp"
+                  android:textColor="@color/darkblue"
+                  android:textAlignment="center"
+                  android:textStyle="italic"
+
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintTop_toBottomOf="@id/fragMusicHeadingTV"
+                  app:layout_constraintHorizontal_bias="0.5"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="25dp"
+                  android:layout_marginHorizontal="20dp"
+
+                  android:id="@+id/songLyricsTV"
+                  android:text="@string/lyrics"
+                  android:textColor="@color/black"
+                  android:textSize="20sp"
+                  android:textStyle="bold"
+
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintTop_toBottomOf="@id/songNameTV"
+                  app:layout_constraintHorizontal_bias="0.5"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/song_long_text"
+                android:textSize="22.5sp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/songLyricsTV"
+                app:layout_constraintHorizontal_bias="0.5">
+
+        </TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

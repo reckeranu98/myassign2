@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+
+>
+
+    <item android:id="@+id/item1"
+          android:title="Item 1"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/baseline_assignment">
+        <menu>
+
+            <item android:id="@+id/movieItem"
+                  android:title="Movie"
+                  app:showAsAction="collapseActionView"
+                  android:icon="@android:drawable/ic_dialog_info"/>
+            <item android:id="@+id/musicItem"
+                  android:title="Music"
+                  app:showAsAction="collapseActionView"
+                  android:icon="@android:drawable/ic_dialog_dialer"/>
+        </menu>
+    </item>
+</menu>

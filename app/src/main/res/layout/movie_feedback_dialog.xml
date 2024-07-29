@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="10dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/movieHeaderTV"
+
+            android:text="@string/movie_dialog_heading"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="20dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+    />
+
+    <Spinner
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spMovie"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="25dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/movieHeaderTV"
+            app:layout_constraintHorizontal_bias="0.5"/>
+
+    <RadioGroup
+            android:id="@+id/movieRadioGrp"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spMovie"
+            app:layout_constraintHorizontal_bias="0.5">
+        <RadioButton
+                android:id="@+id/veryBadRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/negative"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="@string/feedback_1"/>
+        <RadioButton
+                android:id="@+id/badRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bad"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="@string/feedback_2"/>
+        <RadioButton
+                android:id="@+id/averageRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/average"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="@string/feedback_3"/>
+        <RadioButton
+                android:id="@+id/goodRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/great"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="@string/feedback_4"/>
+        <RadioButton
+                android:id="@+id/awesomeRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/excellent"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="@string/feedback_5"/>
+    </RadioGroup>
+
+    <Button
+            android:id="@+id/dismissBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/dismiss"
+            android:backgroundTint="@color/dismiss_btn"
+
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat"
+
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="30dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/movieRadioGrp"
+    />
+
+    <Button
+            android:id="@+id/confirmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/confirm"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="20dp"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="30dp"
+
+            android:backgroundTint="@color/confirm_btn"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/movieRadioGrp"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

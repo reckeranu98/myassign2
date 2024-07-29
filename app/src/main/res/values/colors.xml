@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="babypink">#FAD4E5</color>
+    <color name="heading">#FC529E</color>
+    <color name="lightblue">#AFDDF8</color>
+    <color name="navyblue">#001279</color>
+    <color name="darkblue">#2F42B0</color>
+
+    <color name="negative">#FF0000</color>
+    <color name="bad">#FFA500</color>
+    <color name="average">#304FFE</color>
+    <color name="great">#90EE90</color>
+    <color name="excellent">#008000</color>
+
+    <color name="dismiss_btn">#A9A9A9</color>
+    <color name="confirm_btn">#2196F3</color>
+
+    <color name="info">#C51162</color>
+    <color name="feedback">#F65FA3</color>
+
+    <color name="movie_bg">#D7A7FE</color>
+</resources>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Assignment2</string>
+    <string name="movie_dialog_heading">Did you like the movie?</string>
+    <string name="feedback_1">Very Bad</string>
+    <string name="feedback_2">Bad</string>
+    <string name="feedback_3">Average</string>
+    <string name="feedback_4">Good</string>
+    <string name="feedback_5">Awesome</string>
+    <string name="confirm">Confirm</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="main_heading">Welcome to Assignment 2</string>
+    <string name="selection">Selection</string>
+    <string name="feedback">feedback</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frag_movie_heading">Movie Fragment</string>
+    <string name="movie_long_text">The movie begins with a meticulously planned bank robbery orchestrated by the Joker.
+        His henchmen eliminate each other until only the Joker remains, showcasing his ruthlessness and cunning.
+        Gotham City is experiencing a reduction in crime due to Batmans efforts, District Attorney Harvey Dents (Aaron Eckhart)
+        crackdown on organized crime, and the support of Lieutenant James Gordon (Gary Oldman). However, the Joker emerges as a new threat,
+        intent on plunging the city into chaos. The Joker begins a reign of terror, targeting public officials and demanding Batman reveal his identity.
+        His actions grow increasingly violent, leading to the death of many, including Commissioner Loeb and Judge Surillo.
+        After being severely injured in a trap set by the Joker, Harvey Dent becomes Two-Face.
+        His face is disfigured in an explosion that also kills Rachel Dawes (Maggie Gyllenhaal),
+        Bruce Waynes love interest. The Joker continues to manipulate Gothams citizens and forces Batman to confront his own moral boundaries.
+        Batman must decide whether to save Dent or Rachel, and he chooses Rachel, but the Jokers deceit leads to Dents rescue instead.
+        The climax occurs in two locations: a building rigged with explosives and two ferries filled with passengers.
+        The Jokers plan is to force the passengers to blow up the other ferry, but they refuse, proving Gothams citizens are not as corrupt as he believed.
+        Batman captures the Joker but not before the Joker reveals that Dent has been corrupted. Two-Face kidnaps Gordons family,
+        blaming Gordon for Rachels death. Batman intervenes, and in the ensuing struggle, Dent dies.
+        To protect Dents reputation and maintain the hope he represents, Batman takes the blame for Dents crimes.
+    </string>
+    <string name="song_long_text">These four lonely walls have changed the way I feel
+        The way I feel
+        I am standing still
+        And nothing else matters now you are not here
+        So where are you?
+        I have been calling you
+        I am missing you
+        Where else can I go? Where else can I go?
+        Chasing you, chasing  you
+        Memories turn to dust
+
+
+    </string>
+    <string name="movie_frag">Movie Frag</string>
+    <string name="plot">Plot Summary</string>
+    <string name="movie_name">The Dark Knight</string>
+
+
+    <string name="music_frag">Music Fragment</string>
+    <string name="lyrics">Lyrics of the Song</string>
+    <string name="music">Running</string>
+    <string name="Feedback">Feedback</string>
+</resources>
